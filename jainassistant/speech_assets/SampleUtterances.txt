@@ -6,5 +6,6 @@ QuoteIntent yes
 QuoteIntent sure
 QuoteIntent yes tell me one
 QuoteIntent go on
+QuoteIntent Tell me a quote
 QuoteIntent what's new
-JJIntent Are you Jain
+QuoteIntent say a quote

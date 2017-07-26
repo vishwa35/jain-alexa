@@ -5,6 +5,9 @@
     },
     {
       "intent": "QuoteIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
     }
   ]
 }

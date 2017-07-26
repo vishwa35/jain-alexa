@@ -24,6 +24,11 @@ def quote():
   speech = quotes[randint(0, 43)]
   return statement(speech)
 
+@ask.intent('AMAZON.HelpIntent')
+def help():
+  speech = "Say \"Tell me a quote\" to hear a quote or \"Jai Jinendra\" for a greeting. What would you like me to do?"
+  return question(speech)
+
 @ask.session_ended
 def session_ended():
   return "{}", 200
